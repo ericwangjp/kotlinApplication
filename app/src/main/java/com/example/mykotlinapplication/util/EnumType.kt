@@ -1,4 +1,4 @@
-package com.example.mykotlinapplication.model
+package com.example.mykotlinapplication.util
 
 /**
  *[类说明]:
@@ -6,7 +6,7 @@ package com.example.mykotlinapplication.model
  *@date :2019/5/15
  *@version :Vx.x.x
  */
-enum class EnumTest constructor(age:Int){
+enum class EnumType constructor(age:Int){
     LARGE(3),
     MIDDLE(2),
     SMALL(1);
